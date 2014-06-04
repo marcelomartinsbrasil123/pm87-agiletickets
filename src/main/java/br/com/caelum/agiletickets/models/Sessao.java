@@ -107,13 +107,8 @@ public class Sessao {
 		this.ingressosReservados += numeroDeIngressos;
 	}
 
-	public boolean podeReservar(Integer numeroDeIngressos) {
-		// System.out.println("dispoe: " + getIngressosDisponiveis());
-		int sobraram = getIngressosDisponiveis() - numeroDeIngressos;
-		// System.out.println("sobra: " + sobraram);
-		boolean naoTemEspaco = (sobraram <= 0);
-		//System.out.println(naoTemEspaco);
-		return naoTemEspaco;
+	public boolean podeReservar(Integer qtde) {
+		return getIngressosDisponiveis() >= qtde;
 	}
 
 	public void setPreco(BigDecimal preco) {
