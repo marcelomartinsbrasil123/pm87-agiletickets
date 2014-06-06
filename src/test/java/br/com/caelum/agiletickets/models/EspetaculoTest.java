@@ -81,4 +81,9 @@ public class EspetaculoTest {
 		return sessao;
 	}
 	
+	// testes para inserir
+	
+	
+	
+	
 }

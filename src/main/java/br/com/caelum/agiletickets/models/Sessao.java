@@ -16,6 +16,8 @@ import org.joda.time.format.DateTimeFormat;
 @Entity
 public class Sessao {
 
+	// isto eh um teste
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
