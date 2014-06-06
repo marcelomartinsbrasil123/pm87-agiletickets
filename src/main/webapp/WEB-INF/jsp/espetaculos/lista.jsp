@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Lista de Espetáculos</title>
+		<title>Lista de Espetáculos 123</title>
 	</head>
 
 	<body>
@@ -24,7 +24,7 @@
 				<option value="ORQUESTRA">Orquestra</option>
 			</select>
 			
-			<label for="local">Local:</label>
+			<label for="local">Local xxxxxx:</label>
 			<select id="local" name="espetaculo.estabelecimento.id">
 				<c:forEach items="${estabelecimentos}" var="estabelecimento">
 					<option value="${estabelecimento.id}">${estabelecimento.nome}</option>
@@ -35,7 +35,7 @@
 		</form>
 
 		<table cellpadding="0" cellspacing="0" width="100%">
-			<caption>Lista de espetáculos</caption>
+			<caption>Lista de espetáculos - Teste do Teste do Teste</caption>
 			<colgroup>
 				<col width="5%">
 				<col width="40%">
