@@ -19,7 +19,7 @@ public class CalculadoraDePrecosTest {
 			.comOPreco(10.0)
 			.build();
 		
-		// teste
+		// teste teste
 		
 		BigDecimal precoTotal = CalculadoraDePrecos.calcula(sessao, 9);
 		
