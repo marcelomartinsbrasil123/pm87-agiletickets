@@ -25,7 +25,7 @@ public class SessaoTest {
 	public void reservarTodosIngressosDoNumeroDeIngressosDisponiveis() throws Exception {
 		Sessao sessao = new Sessao();
 		sessao.setTotalIngressos(10);
-		Assert.assertTrue(sessao.podeReservar(10));
+		Assert.assertTrue(sessao.podeReservar(1));
 	}
 	
 	@Test
