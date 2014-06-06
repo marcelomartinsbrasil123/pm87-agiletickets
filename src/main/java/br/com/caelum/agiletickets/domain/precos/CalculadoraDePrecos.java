@@ -108,7 +108,7 @@ public class CalculadoraDePrecos {
 			BigDecimal percentual) {
 		BigDecimal preco;
 		// quando estiver acabando os ingressos...
-		if (percentualRestante(sessao) <= 0.50) {
+		if (percentualRestante(sessao) <= 0.050) {
 			preco = sessao.getPreco().multiply(
 					percentual.add(BigDecimal.valueOf(1.0)));
 		} else {
